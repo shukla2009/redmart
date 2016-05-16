@@ -113,7 +113,7 @@
     "test": "gulp test",
 
     "update-webdriver": "node node_modules/grunt-protractor-runner/node_modules/protractor/bin/webdriver-manager update",
-    "start": "node server"
+    "start": "npm install && bower install && node server"
   },
   "private": true
 }
